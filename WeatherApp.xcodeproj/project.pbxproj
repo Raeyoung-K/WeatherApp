@@ -14,6 +14,7 @@
 		8DE7FF0E2AC2683600C8106E /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE7FF0D2AC2683600C8106E /* LocationManager.swift */; };
 		8DE7FF112AC26FF200C8106E /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE7FF102AC26FF200C8106E /* WelcomeView.swift */; };
 		8DE7FF132AC2726F00C8106E /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE7FF122AC2726F00C8106E /* LoadingView.swift */; };
+		8DE7FF152AC2744C00C8106E /* WeatherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE7FF142AC2744C00C8106E /* WeatherManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		8DE7FF0D2AC2683600C8106E /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 		8DE7FF102AC26FF200C8106E /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 		8DE7FF122AC2726F00C8106E /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		8DE7FF142AC2744C00C8106E /* WeatherManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				8DE7FF0D2AC2683600C8106E /* LocationManager.swift */,
+				8DE7FF142AC2744C00C8106E /* WeatherManager.swift */,
 			);
 			path = Manager;
 			sourceTree = "<group>";
@@ -162,6 +165,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8DE7FF152AC2744C00C8106E /* WeatherManager.swift in Sources */,
 				8DE7FF012AC25B6A00C8106E /* ContentView.swift in Sources */,
 				8DE7FEFF2AC25B6A00C8106E /* WeatherAppApp.swift in Sources */,
 				8DE7FF0E2AC2683600C8106E /* LocationManager.swift in Sources */,
